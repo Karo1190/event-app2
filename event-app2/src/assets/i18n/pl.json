@@ -1,0 +1,12 @@
+{
+    "navbar": {
+        "eventCategory": "Kategoria wydarzenia",
+        "location": "Lokalizacja",
+        "account": "Konto"
+    },
+    "headerContent": {
+        "title": "Co dzisiaj chcesz robić?!",
+        "inputLabel": "Wpisz co chciałabys robić, AI wyszuka najodpowiedniejsze atrakcje",
+        "search": "Wyszukaj"
+    }
+}

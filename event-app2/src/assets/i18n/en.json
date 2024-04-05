@@ -1,0 +1,12 @@
+{
+    "navbar": {
+        "eventCategory": "Event category",
+        "location": "Location",
+        "account": "Account"
+    },
+    "headerContent": {
+        "title": "What would you like to do today?!",
+        "inputLabel": "Enter what you would like to do, AI will find the most suitable attractions",
+        "search": "Search"
+    }
+}
