@@ -1,0 +1,27 @@
+<header class="header-card">
+    <nav class="navbar">
+      <a class="logo" href="#">Logo</a>
+      <a class="navbar-item" href="#">{{'navbar.eventCategory' | translate}}</a>
+      <a class="navbar-item" href="#">{{'navbar.location' | translate}}</a>
+      <a class="navbar-item" href="#">{{'navbar.account' | translate}}</a>
+      <form [formGroup]="navbarFormGroup">
+        <p-selectButton [options]="languageOptions"  formControlName="language" optionLabel="label" optionValue="value" [allowEmpty]= false (onChange)="switchLanguage($event)" ></p-selectButton>
+    </form>
+    </nav>
+    <form [formGroup]="formGroup" class="header-content">
+      <h1>{{'headerContent.title' | translate}}</h1>
+      <div class="header-content__input-group">
+        <span class="p-float-label">
+          <input
+            class="header-content__input"
+            type="text"
+            pInputText
+            formControlName="text"
+          />
+          <label for="username">{{'headerContent.inputLabel' | translate}}</label>
+        </span>
+        <p-button  class="header-content__btn" label="{{'headerContent.search' | translate}}" icon="pi pi-search"></p-button>
+      </div>
+    </form>
+  </header>
+
