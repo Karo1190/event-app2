@@ -1,0 +1,17 @@
+<div *ngFor="let category of eventCategories | keyvalue ">
+    <p-panel header="{{ 'dictionaries.EventCategory.' + category.key | translate | uppercase }}" [toggleable]="true">
+        <p-carousel [value]="events" [numVisible]="4" [numScroll]="1">
+            <ng-template let-event pTemplate="item">
+                <div class="img-container" >
+                        <img class="event-item" src="../../assets/img/{{event.image}}" [alt]="event.name"/>          
+                    <div>
+                        <h4 >{{ event.name }}</h4>
+                        <h6>{{ ('section.price' | translate) + ' ' + event.price + ' ' + ('section.currency' | translate) }}</h6>
+                        <div >
+                    </div>
+                    </div>
+                </div>
+            </ng-template>
+        </p-carousel>
+    </p-panel>
+  </div>

@@ -1,0 +1,23 @@
+@mixin header-styles {
+    margin: 5px 0;
+
+  }
+
+.event-item {
+    height: 250px;
+    width: 85%;
+}
+
+.img-container {
+    margin-left: 40px;
+}
+
+h4 {
+    @include header-styles;
+    font-size: 18px;
+  }
+  
+  h6 {
+    @include header-styles;
+    font-size: 15px;
+  }

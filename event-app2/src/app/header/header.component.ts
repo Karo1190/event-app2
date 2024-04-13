@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
-import { Option } from '../../app/models';
+import { Option } from '../model';
 
 @Component({
   selector: 'app-header',

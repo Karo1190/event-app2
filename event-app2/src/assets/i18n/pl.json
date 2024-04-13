@@ -8,5 +8,21 @@
         "title": "Co dzisiaj chcesz robić?!",
         "inputLabel": "Wpisz co chciałabys robić, AI wyszuka najodpowiedniejsze atrakcje",
         "search": "Wyszukaj"
+    },
+    "section": {
+        "price": "Cena od",
+        "currency": "zł"
+    },
+    "dictionaries": {
+        "EventCategory": {
+            "MUSIC": "Muzyka",
+            "SPORTS": "Sport",
+            "ARTS": "Sztuka",
+            "FOOD": "Jedzenie",
+            "BUSINESS": "Biznes",
+            "EDUCATION": "Edukacja",
+            "FAMILY": "Wydarzenie rodzinne",
+            "OTHER": "Inne"
+        }
     }
 }
