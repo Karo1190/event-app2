@@ -1,0 +1,110 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Wydarzenie 1",
+      "description": "Product Description",
+      "image": "football.jpg",
+      "price": 65,
+      "category": "Accessories",
+      "rating": 5
+  },
+  {
+      "id": 2,
+      "name": "Wydarzenie 2",
+      "description": "Product Description",
+      "image": "business.jpg",
+      "price": 72,
+      "category": "Accessories",
+      "rating": 4
+  },
+  {
+      "id": 3,
+      "name": "Wydarzenie 3",
+      "description": "Product Description",
+      "image": "business2.jpg",
+      "price": 79,
+      "category": "Fitness",
+      "rating": 3
+  },
+  {
+      "id": 4,
+      "name": "Wydarzenie 4",
+      "description": "Product Description",
+      "image": "car.jpg",
+      "price": 29,
+      "category": "Clothing",
+      "rating": 5
+  },
+  {
+      "id": 5,
+      "name": "Wydarzenie 5",
+      "description": "Product Description",
+      "image": "football.jpg",
+      "price": 15,
+      "category": "Accessories",
+      "rating": 4
+  },
+  {
+      "id": 6,
+      "name": "Wydarzenie 6",
+      "description": "Product Description",
+      "image": "business.jpg",
+      "price": 120,
+      "category": "Accessories",
+      "rating": 4
+  },
+  {
+      "id": 7,
+      "name": "Wydarzenie 7",
+      "description": "Product Description",
+      "image": "business2.jpg",
+      "price": 32,
+      "category": "Accessories",
+      "rating": 3
+  },
+  {
+      "id": 8,
+      "name": "Wydarzenie 8",
+      "description": "Product Description",
+      "image": "car.jpg",
+      "price": 34,
+      "category": "Accessories",
+      "rating": 5
+  },
+  {
+      "id": 9,
+      "name": "Wydarzenie 9",
+      "description": "Product Description",
+      "image": "football.jpg",
+      "price": 99,
+      "category": "Electronics",
+      "rating": 4
+  },
+  {
+      "id": 10,
+      "name": "Wydarzenie 10",
+      "description": "Product Description",
+      "image": "business.jpg",
+      "price": 299,
+      "category": "Electronics",
+      "rating": 3
+  },
+  {
+      "id": 11,
+      "name": "Wydarzenie 11",
+      "description": "Product Description",
+      "image": "business2.jpg",
+      "price": 24,
+      "category": "Accessories",
+      "rating": 4
+  }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}

@@ -8,5 +8,17 @@
         "title": "What would you like to do today?!",
         "inputLabel": "Enter what you would like to do, AI will find the most suitable attractions",
         "search": "Search"
+    },
+    "dictionaries": {
+        "EventCategory" : {
+            "MUSIC": "Music",
+            "SPORTS" : "Sports",
+            "ARTS" : "Art",
+            "FOOD" : "Food",
+            "BUSINESS" : "Business",
+            "EDUCATION": "Education",
+            "FAMILY" : "Family event",
+            "OTHER" : "Other"
+        }
     }
 }
