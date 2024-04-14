@@ -6,7 +6,7 @@
       "description": "Product Description",
       "image": "football.jpg",
       "price": 65,
-      "category": "Accessories",
+      "category": "MUSIC",
       "rating": 5
   },
   {
@@ -15,7 +15,7 @@
       "description": "Product Description",
       "image": "business.jpg",
       "price": 72,
-      "category": "Accessories",
+      "category": "SPORTS",
       "rating": 4
   },
   {
@@ -24,7 +24,7 @@
       "description": "Product Description",
       "image": "business2.jpg",
       "price": 79,
-      "category": "Fitness",
+      "category": "ARTS",
       "rating": 3
   },
   {
@@ -33,7 +33,7 @@
       "description": "Product Description",
       "image": "car.jpg",
       "price": 29,
-      "category": "Clothing",
+      "category": "FOOD",
       "rating": 5
   },
   {
@@ -42,7 +42,7 @@
       "description": "Product Description",
       "image": "football.jpg",
       "price": 15,
-      "category": "Accessories",
+      "category": "BUSINESS",
       "rating": 4
   },
   {
@@ -51,7 +51,7 @@
       "description": "Product Description",
       "image": "business.jpg",
       "price": 120,
-      "category": "Accessories",
+      "category": "EDUCATION",
       "rating": 4
   },
   {
@@ -60,7 +60,7 @@
       "description": "Product Description",
       "image": "business2.jpg",
       "price": 32,
-      "category": "Accessories",
+      "category": "FAMILY",
       "rating": 3
   },
   {
@@ -69,7 +69,7 @@
       "description": "Product Description",
       "image": "car.jpg",
       "price": 34,
-      "category": "Accessories",
+      "category": "OTHER",
       "rating": 5
   },
   {
@@ -78,7 +78,7 @@
       "description": "Product Description",
       "image": "football.jpg",
       "price": 99,
-      "category": "Electronics",
+      "category": "MUSIC",
       "rating": 4
   },
   {
@@ -87,7 +87,7 @@
       "description": "Product Description",
       "image": "business.jpg",
       "price": 299,
-      "category": "Electronics",
+      "category": "SPORTS",
       "rating": 3
   },
   {
@@ -96,8 +96,575 @@
       "description": "Product Description",
       "image": "business2.jpg",
       "price": 24,
-      "category": "Accessories",
+      "category": "ARTS",
       "rating": 4
+  },
+  {
+    "id": 12,
+    "name": "Wydarzenie 1",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 65,
+    "category": "FOOD",
+    "rating": 5
+},
+{
+    "id": 13,
+    "name": "Wydarzenie 2",
+    "description": "Product Description",
+    "image": "business.jpg",
+    "price": 72,
+    "category": "BUSINESS",
+    "rating": 4
+},
+{
+    "id": 14,
+    "name": "Wydarzenie 3",
+    "description": "Product Description",
+    "image": "business2.jpg",
+    "price": 79,
+    "category": "EDUCATION",
+    "rating": 3
+},
+{
+    "id": 15,
+    "name": "Wydarzenie 4",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 29,
+    "category": "FAMILY",
+    "rating": 5
+},
+{
+    "id": 16,
+    "name": "Wydarzenie 5",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 15,
+    "category": "OTHER",
+    "rating": 4
+},
+{
+    "id": 17,
+    "name": "Wydarzenie 6",
+    "description": "Product Description",
+    "image": "business.jpg",
+    "price": 120,
+    "category": "MUSIC",
+    "rating": 4
+},
+{
+    "id": 18,
+    "name": "Wydarzenie 7",
+    "description": "Product Description",
+    "image": "business2.jpg",
+    "price": 32,
+    "category": "SPORTS",
+    "rating": 3
+},
+{
+    "id": 19,
+    "name": "Wydarzenie 8",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 34,
+    "category": "ARTS",
+    "rating": 5
+},
+{
+    "id": 20,
+    "name": "Wydarzenie 9",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 99,
+    "category": "FOOD",
+    "rating": 4
+},
+{
+    "id": 21,
+    "name": "Wydarzenie 10",
+    "description": "Product Description",
+    "image": "business.jpg",
+    "price": 299,
+    "category": "BUSINESS",
+    "rating": 3
+},
+{
+    "id": 22,
+    "name": "Wydarzenie 11",
+    "description": "Product Description",
+    "image": "business2.jpg",
+    "price": 24,
+    "category": "EDUCATION",
+    "rating": 4
+},
+{
+    "id": 23,
+    "name": "Wydarzenie 1",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 65,
+    "category": "MUSIC",
+    "rating": 5
+},
+{
+    "id": 24,
+    "name": "Wydarzenie 2",
+    "description": "Product Description",
+    "image": "business.jpg",
+    "price": 72,
+    "category": "SPORTS",
+    "rating": 4
+},
+{
+    "id": 25,
+    "name": "Wydarzenie 3",
+    "description": "Product Description",
+    "image": "business2.jpg",
+    "price": 79,
+    "category": "ARTS",
+    "rating": 3
+},
+{
+    "id": 26,
+    "name": "Wydarzenie 4",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 29,
+    "category": "FOOD",
+    "rating": 5
+},
+{
+    "id": 27,
+    "name": "Wydarzenie 5",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 15,
+    "category": "BUSINESS",
+    "rating": 4
+},
+{
+    "id": 28,
+    "name": "Wydarzenie 6",
+    "description": "Product Description",
+    "image": "business.jpg",
+    "price": 120,
+    "category": "EDUCATION",
+    "rating": 4
+},
+{
+    "id": 29,
+    "name": "Wydarzenie 7",
+    "description": "Product Description",
+    "image": "business2.jpg",
+    "price": 32,
+    "category": "FAMILY",
+    "rating": 3
+},
+{
+    "id": 30,
+    "name": "Wydarzenie 8",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 34,
+    "category": "OTHER",
+    "rating": 5
+},
+{
+    "id": 31,
+    "name": "Wydarzenie 9",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 99,
+    "category": "MUSIC",
+    "rating": 4
+},
+{
+    "id": 32,
+    "name": "Wydarzenie 10",
+    "description": "Product Description",
+    "image": "business.jpg",
+    "price": 299,
+    "category": "SPORTS",
+    "rating": 3
+},
+{
+    "id": 33,
+    "name": "Wydarzenie 11",
+    "description": "Product Description",
+    "image": "business2.jpg",
+    "price": 24,
+    "category": "ARTS",
+    "rating": 4
+},
+{
+  "id": 34,
+  "name": "Wydarzenie 1",
+  "description": "Product Description",
+  "image": "football.jpg",
+  "price": 65,
+  "category": "FOOD",
+  "rating": 5
+},
+{
+  "id": 35,
+  "name": "Wydarzenie 2",
+  "description": "Product Description",
+  "image": "business.jpg",
+  "price": 72,
+  "category": "BUSINESS",
+  "rating": 4
+},
+{
+  "id": 36,
+  "name": "Wydarzenie 3",
+  "description": "Product Description",
+  "image": "business2.jpg",
+  "price": 79,
+  "category": "EDUCATION",
+  "rating": 3
+},
+{
+  "id": 37,
+  "name": "Wydarzenie 4",
+  "description": "Product Description",
+  "image": "car.jpg",
+  "price": 29,
+  "category": "FAMILY",
+  "rating": 5
+},
+{
+  "id": 38,
+  "name": "Wydarzenie 5",
+  "description": "Product Description",
+  "image": "football.jpg",
+  "price": 15,
+  "category": "OTHER",
+  "rating": 4
+},
+{
+  "id": 39,
+  "name": "Wydarzenie 6",
+  "description": "Product Description",
+  "image": "business.jpg",
+  "price": 120,
+  "category": "MUSIC",
+  "rating": 4
+},
+{
+  "id": 40,
+  "name": "Wydarzenie 7",
+  "description": "Product Description",
+  "image": "business2.jpg",
+  "price": 32,
+  "category": "SPORTS",
+  "rating": 3
+},
+{
+  "id": 41,
+  "name": "Wydarzenie 8",
+  "description": "Product Description",
+  "image": "car.jpg",
+  "price": 34,
+  "category": "ARTS",
+  "rating": 5
+},
+{
+  "id": 42,
+  "name": "Wydarzenie 9",
+  "description": "Product Description",
+  "image": "football.jpg",
+  "price": 99,
+  "category": "FOOD",
+  "rating": 4
+},
+{
+  "id": 43,
+  "name": "Wydarzenie 10",
+  "description": "Product Description",
+  "image": "business.jpg",
+  "price": 299,
+  "category": "BUSINESS",
+  "rating": 3
+},
+{
+  "id": 44,
+  "name": "Wydarzenie 11",
+  "description": "Product Description",
+  "image": "business2.jpg",
+  "price": 24,
+  "category": "EDUCATION",
+  "rating": 4
+},
+{
+    "id": 37,
+    "name": "Wydarzenie 4",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 29,
+    "category": "FAMILY",
+    "rating": 5
+  },
+  {
+    "id": 38,
+    "name": "Wydarzenie 5",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 15,
+    "category": "OTHER",
+    "rating": 4
+  },
+  {
+    "id": 39,
+    "name": "Wydarzenie 6",
+    "description": "Product Description",
+    "image": "business.jpg",
+    "price": 120,
+    "category": "MUSIC",
+    "rating": 4
+  },
+  {
+    "id": 40,
+    "name": "Wydarzenie 7",
+    "description": "Product Description",
+    "image": "business2.jpg",
+    "price": 32,
+    "category": "SPORTS",
+    "rating": 3
+  },
+  {
+    "id": 41,
+    "name": "Wydarzenie 8",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 34,
+    "category": "ARTS",
+    "rating": 5
+  },
+  {
+    "id": 42,
+    "name": "Wydarzenie 9",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 99,
+    "category": "FOOD",
+    "rating": 4
+  },
+  {
+    "id": 43,
+    "name": "Wydarzenie 10",
+    "description": "Product Description",
+    "image": "business.jpg",
+    "price": 299,
+    "category": "BUSINESS",
+    "rating": 3
+  },
+  {
+    "id": 44,
+    "name": "Wydarzenie 11",
+    "description": "Product Description",
+    "image": "business2.jpg",
+    "price": 24,
+    "category": "EDUCATION",
+    "rating": 4
+  },
+  {
+    "id": 37,
+    "name": "Wydarzenie 4",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 29,
+    "category": "FAMILY",
+    "rating": 5
+  },
+  {
+    "id": 38,
+    "name": "Wydarzenie 5",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 15,
+    "category": "OTHER",
+    "rating": 4
+  },
+  {
+    "id": 39,
+    "name": "Wydarzenie 6",
+    "description": "Product Description",
+    "image": "business.jpg",
+    "price": 120,
+    "category": "MUSIC",
+    "rating": 4
+  },
+  {
+    "id": 40,
+    "name": "Wydarzenie 7",
+    "description": "Product Description",
+    "image": "business2.jpg",
+    "price": 32,
+    "category": "SPORTS",
+    "rating": 3
+  },
+  {
+    "id": 41,
+    "name": "Wydarzenie 8",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 34,
+    "category": "ARTS",
+    "rating": 5
+  },
+  {
+    "id": 42,
+    "name": "Wydarzenie 9",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 99,
+    "category": "FOOD",
+    "rating": 4
+  },
+  {
+    "id": 43,
+    "name": "Wydarzenie 10",
+    "description": "Product Description",
+    "image": "business.jpg",
+    "price": 299,
+    "category": "BUSINESS",
+    "rating": 3
+  },
+  {
+    "id": 44,
+    "name": "Wydarzenie 11",
+    "description": "Product Description",
+    "image": "business2.jpg",
+    "price": 24,
+    "category": "EDUCATION",
+    "rating": 4
+  },
+  {
+    "id": 45,
+    "name": "Wydarzenie 4",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 29,
+    "category": "FAMILY",
+    "rating": 5
+  },
+  {
+    "id": 46,
+    "name": "Wydarzenie 5",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 15,
+    "category": "OTHER",
+    "rating": 4
+  },
+  {
+    "id": 47,
+    "name": "Wydarzenie 6",
+    "description": "Product Description",
+    "image": "business.jpg",
+    "price": 120,
+    "category": "MUSIC",
+    "rating": 4
+  },
+  {
+    "id": 48,
+    "name": "Wydarzenie 7",
+    "description": "Product Description",
+    "image": "business2.jpg",
+    "price": 32,
+    "category": "SPORTS",
+    "rating": 3
+  },
+  {
+    "id": 49,
+    "name": "Wydarzenie 8",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 34,
+    "category": "ARTS",
+    "rating": 5
+  },
+  {
+    "id": 50,
+    "name": "Wydarzenie 9",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 99,
+    "category": "FOOD",
+    "rating": 4
+  },
+  {
+    "id": 51,
+    "name": "Wydarzenie 10",
+    "description": "Product Description",
+    "image": "business.jpg",
+    "price": 299,
+    "category": "BUSINESS",
+    "rating": 3
+  },
+  {
+    "id": 52,
+    "name": "Wydarzenie 11",
+    "description": "Product Description",
+    "image": "business2.jpg",
+    "price": 24,
+    "category": "EDUCATION",
+    "rating": 4
+  },
+  {
+    "id": 53,
+    "name": "Wydarzenie 4",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 29,
+    "category": "FAMILY",
+    "rating": 5
+  },
+  {
+    "id": 54,
+    "name": "Wydarzenie 5",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 15,
+    "category": "OTHER",
+    "rating": 4
+  },
+  {
+    "id": 55,
+    "name": "Wydarzenie 4",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 29,
+    "category": "FAMILY",
+    "rating": 5
+  },
+  {
+    "id": 56,
+    "name": "Wydarzenie 5",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 15,
+    "category": "OTHER",
+    "rating": 4
+  },
+  {
+    "id": 57,
+    "name": "Wydarzenie 4",
+    "description": "Product Description",
+    "image": "car.jpg",
+    "price": 29,
+    "category": "FAMILY",
+    "rating": 5
+  },
+  {
+    "id": 58,
+    "name": "Wydarzenie 5",
+    "description": "Product Description",
+    "image": "football.jpg",
+    "price": 15,
+    "category": "OTHER",
+    "rating": 4
   }
   ],
   "comments": [

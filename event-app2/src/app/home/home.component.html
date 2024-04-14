@@ -1,0 +1,18 @@
+<header class="header-card">
+    <form [formGroup]="formGroup" class="header-content">
+        <h1>{{'headerContent.title' | translate}}</h1>
+        <div class="header-content__input-group">
+            <span class="p-float-label">
+                <input class="header-content__input" type="text" pInputText formControlName="text" />
+                <label for="username">{{'headerContent.inputLabel' | translate}}</label>
+            </span>
+            <p-button class="header-content__btn" label="{{'headerContent.search' | translate}}"
+                icon="pi pi-search"></p-button>
+        </div>
+    </form>
+</header>
+<div *ngFor="let category of eventCategories | keyvalue ">
+    <p-panel header="{{ 'dictionaries.EventCategory.' + category.key | translate | uppercase }}" [toggleable]="true">
+<app-section [events]="eventsGroupedByCategory[category.key]"></app-section>
+    </p-panel>
+</div>

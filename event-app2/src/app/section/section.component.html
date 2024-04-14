@@ -1,30 +1,12 @@
-<header class="header-card">
-    <form [formGroup]="formGroup" class="header-content">
-        <h1>{{'headerContent.title' | translate}}</h1>
-        <div class="header-content__input-group">
-            <span class="p-float-label">
-                <input class="header-content__input" type="text" pInputText formControlName="text" />
-                <label for="username">{{'headerContent.inputLabel' | translate}}</label>
-            </span>
-            <p-button class="header-content__btn" label="{{'headerContent.search' | translate}}"
-                icon="pi pi-search"></p-button>
+<p-carousel class="container" [value]="events" [numVisible]="7" [numScroll]="1">
+    <ng-template let-event pTemplate="item">
+        <div class="img-container" [routerLink]="['/event', event.id]">
+            <img class="event-item" src="../../assets/img/{{event.image}}" [alt]="event.name" />
+            <div>
+                <h4>{{ event.name }}</h4>
+                <h6>{{ 'section.price' | translate }} {{ event.price }} {{ 'section.currency' | translate }}</h6>
+                <p-rating [ngModel]="event.rating" [readonly]="true" [cancel]="false"></p-rating>
+            </div>
         </div>
-    </form>
-</header>
-<div *ngFor="let category of eventCategories | keyvalue ">
-    <p-panel header="{{ 'dictionaries.EventCategory.' + category.key | translate | uppercase }}" [toggleable]="true">
-        <p-carousel [value]="events" [numVisible]="4" [numScroll]="1">
-            <ng-template let-event pTemplate="item">
-                <div class="img-container" [routerLink]="['/event', event.id]">
-                    <img class="event-item" src="../../assets/img/{{event.image}}" [alt]="event.name" />
-                    <div>
-                        <h4>{{ event.name }}</h4>
-                        <h6>{{ 'section.price' | translate }} {{ event.price }} {{ 'section.currency' | translate }}</h6>
-                        <div>
-                        </div>
-                    </div>
-                </div>
-            </ng-template>
-        </p-carousel>
-    </p-panel>
-</div>
+    </ng-template>
+</p-carousel>
