@@ -9,7 +9,6 @@ import { Option } from '../model';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  formGroup!: FormGroup;
   navbarFormGroup!: FormGroup;
   languageOptions: Option[] = [
     { label: 'PL', value: 'pl' },
@@ -19,9 +18,6 @@ export class HeaderComponent {
   constructor(private translate: TranslateService){}
 
   ngOnInit() {
-    this.formGroup = new FormGroup({
-      text: new FormControl<string | null>(null),
-    });
     this.navbarFormGroup = new FormGroup({
       language: new FormControl('pl'),
     });

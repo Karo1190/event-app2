@@ -15,6 +15,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { PanelModule } from 'primeng/panel';
 import { SectionComponent } from './section/section.component';
 import { CarouselModule } from 'primeng/carousel';
+import { EventDetailsComponent } from './event-details/event-details.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -23,7 +24,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, SectionComponent],
+  declarations: [AppComponent, HeaderComponent, SectionComponent, EventDetailsComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
