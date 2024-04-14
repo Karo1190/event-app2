@@ -1,15 +1,20 @@
+.container {
+  display: flex;
+}
+
 h4,
 h6 {
   margin: 5px 0;
+
 }
 
 .event-item {
-  height: 250px;
-  width: 85%;
+  height: 200px;
+  width: 100%;
 }
 
 .img-container {
-  margin-left: 40px;
+  margin: 3px;
   cursor: pointer;
 }
 
@@ -21,63 +26,11 @@ h6 {
   font-size: 15px;
 }
 
-$primary-color: #00b3ff;
-$main-color: #fff;
+.img-container {
+  transition: transform 0.3s;
 
-@mixin text-shadow($color) {
-  text-shadow: 0 0 10px $color, 0 0 20px $color, 0 0 40px $color;
-}
+  &:hover {
+    transform: scale(1.08);
+  }
 
-.header-card {
-  width: 100%;
-  height: 100vh;
-  background: url("/assets/img/pexels-wendy-wei-1190297.jpg") no-repeat center/cover;
-}
-
-.header-content {
-  position: relative;
-  top: 30%;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-}
-
-.header-content h1 {
-  font-weight: 700;
-  font-size: 64px;
-  margin: 0 30px;
-  line-height: 74.5px;
-  color: #fff;
-  @include text-shadow($primary-color);
-}
-
-.header-content__input-group {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin: 25px;
-}
-
-label {
-  margin-top: -0.5rem;
-  font-weight: bold;
-}
-
-.p-float-label {
-  width: 40%;
-}
-
-.header-content__input {
-  height: 40px;
-  width: 100%;
-}
-
-.header-content__input:focus+label {
-  color: #fff;
-  @include text-shadow($primary-color);
 }

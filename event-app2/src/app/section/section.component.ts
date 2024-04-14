@@ -1,26 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
-import { EventCategory, EventDto } from '../model';
-import { EventApiService } from '../services/event-api.service';
+import { Component, Input } from '@angular/core';
+import { EventDto } from '../model';
 
 @Component({
   selector: 'app-section',
   templateUrl: './section.component.html',
   styleUrl: './section.component.scss',
 })
-export class SectionComponent implements OnInit {
-  formGroup!: FormGroup;
-  eventCategories = EventCategory;
-  events: EventDto[] = [];
+export class SectionComponent {
+  value!: number;
 
-  constructor(private eventApiService: EventApiService) {}
-
-  ngOnInit(): void {
-    this.eventApiService.getEvent().subscribe((events) => {
-      this.events = events;
-    });
-    this.formGroup = new FormGroup({
-      text: new FormControl<string | null>(null),
-    });
-  }
+  @Input() events: EventDto[] = [];
 }

@@ -13,9 +13,12 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { PanelModule } from 'primeng/panel';
-import { SectionComponent } from './section/section.component';
+import { HomeComponent } from './home/home.component';
 import { CarouselModule } from 'primeng/carousel';
 import { EventDetailsComponent } from './event-details/event-details.component';
+import { SectionComponent } from './section/section.component';
+import { RatingModule } from 'primeng/rating';
+
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -24,7 +27,7 @@ export function HttpLoaderFactory(http: HttpClient) {
 
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, SectionComponent, EventDetailsComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, EventDetailsComponent, SectionComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -36,6 +39,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     PanelModule,
     SelectButtonModule,
     CarouselModule,
+    RatingModule, 
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
