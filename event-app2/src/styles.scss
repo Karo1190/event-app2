@@ -1,69 +1,70 @@
-/* You can add global styles to this file, and also import other style files */
+@use '../src/variables' as *;
+
 @import "primeicons/primeicons.css";
-// @import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
-@import "primeng/resources/themes/arya-blue/theme.css";
+// @import "primeng/resources/themes/arya-blue/theme.css";
 
-$main-color: #fff;
-
-*{
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background: #272424;
-    
+body {
+  background: #272424;
+
 }
 
 .header-content__btn .p-button {
-    padding: 5px;
-  }
+  padding: 5px;
+}
 
-  .p-button-icon {
-    padding: 2px;
-  }
+.p-button-icon {
+  padding: 2px;
+}
 
-  .p-button {
-    padding: 5px;
-  }
+.p-button {
+  padding: 5px;
+}
 
-  .p-panel-header {
-    justify-content: space-between;
-    background: #141414;
-    color: $main-color;
-    
+.p-panel-header {
+  justify-content: space-between;
+  background: #272424;
+  color: $main-color;
+
 }
 
 .p-icon {
-    color: $main-color;
+  color: $main-color;
 }
 
 svg.carousel-prev-icon.p-icon:hover {
-  color: #64B5F6;
+  color: rgb(59, 130, 246);
 }
 
 .p-panel-icons:hover .p-icon {
-    color: #64B5F6;
-  }
+  color: rgb(59, 130, 246);
+}
 
-  .p-panel .p-panel-content  {
-    background: #141414;;
-  }
-
-  
-  .p-carousel-container  {
-    padding: 20px;
-    margin: 10px;
-    
-  }
-
-   .p-carousel-indicator button {
-    margin: 0 3px;
-  }
-
-  .p-carousel-item {
-    max-height: 350px;
-  }
+.p-panel .p-panel-content {
+  background: #272424;
+}
 
 
+.p-carousel-container {
+  padding: 20px;
+  margin: 10px;
+
+}
+
+.p-carousel-indicator button {
+  margin: 0 3px;
+}
+
+.p-carousel-item {
+  max-height: 350px;
+}
+
+.p-rating {
+  padding-bottom: 15px;
+}
