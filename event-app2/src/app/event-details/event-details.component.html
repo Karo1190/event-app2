@@ -1,0 +1,11 @@
+<div class="container">
+    <header class="header-card" *ngIf="event$ | async as event">
+      <div class="background-image" [ngStyle]="{'background-image': 'url(' + '/assets/img/' + event.image + ')'}"></div>
+      <div class="content" >
+        <h2 class="text">{{event.name}}</h2>
+        <p  *ngIf="event.shortDescription" class="text">{{event.shortDescription}}</p>
+        <h3 class="text">{{ 'section.price' | translate }} {{ event.price }} {{ 'section.currency' | translate }}</h3>
+        <p-button class="content-button" label="{{'eventDetails.header.buyTicket' | translate}}"></p-button>
+      </div>
+    </header>
+  </div>

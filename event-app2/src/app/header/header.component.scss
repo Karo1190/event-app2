@@ -1,25 +1,14 @@
-
-
-@mixin hover-effect {
-  &:hover {
-    color: $primary-color;
-    transform: scale(1.2);
-  }
-}
+@use '../../scss/base' as *;
 
 .navbar {
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   padding: 15px 80px;
-  background: rgba(255, 255, 255, 0.1);
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  background: $header-color;
+  @include flex-center;
   gap: 40px;
   backdrop-filter: blur(10px);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid $header-color;
   z-index: 2;
 
   &::before {

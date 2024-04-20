@@ -17,6 +17,7 @@ export interface Option {
   export interface EventDto {
     id: number,
     name: string,
+    shortDescription?: string,
     description: string,
     image: string,
     price: number,
