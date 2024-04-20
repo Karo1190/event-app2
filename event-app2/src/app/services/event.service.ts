@@ -17,6 +17,10 @@ export class EventService {
     );
   }
 
+  getEventById(id:string): Observable<EventDto> {
+  return this.eventApiService.getEventById(id)
+  }
+
   private groupEventsByCategory(events: EventDto[]): { [key: string]: EventDto[] } {
     return events.reduce((acc, event) => {
       const category = event.category.toUpperCase();

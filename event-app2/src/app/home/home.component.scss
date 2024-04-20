@@ -1,10 +1,4 @@
-
-$primary-color: #00b3ff;
-$main-color: #fff;
-
-@mixin text-shadow($color) {
-  text-shadow: 0 0 10px $color, 0 0 20px $color, 0 0 40px $color;
-}
+@use '../../scss/base' as *;
 
 .header-card {
   width: 100%;
@@ -16,10 +10,8 @@ $main-color: #fff;
   position: relative;
   top: 30%;
   z-index: 1;
-  display: flex;
+  @include flex-center;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 15px;
 }
 
@@ -34,9 +26,7 @@ $main-color: #fff;
 
 .header-content__input-group {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@include flex-center;
   gap: 15px;
   margin: 25px;
 }
@@ -56,6 +46,6 @@ label {
 }
 
 .header-content__input:focus+label {
-  color: #fff;
+  color: $main-color;
   @include text-shadow($primary-color);
 }

@@ -9,6 +9,11 @@
         "inputLabel": "Enter what you would like to do, AI will find the most suitable attractions",
         "search": "Search"
     },
+    "eventDetails": {
+        "header": {
+            "buyTicket": "Buy ticket"
+        }
+    },
     "dictionaries": {
         "EventCategory" : {
             "MUSIC": "Music",

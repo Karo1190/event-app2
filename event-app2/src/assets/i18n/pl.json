@@ -13,6 +13,11 @@
         "price": "Cena od",
         "currency": "zł"
     },
+    "eventDetails": {
+        "header": {
+            "buyTicket": "Kup bilet"
+        }
+    },
     "dictionaries": {
         "EventCategory": {
             "MUSIC": "Muzyka",

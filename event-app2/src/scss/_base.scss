@@ -1,0 +1,38 @@
+
+//variables
+$main-color: #fff;
+$primary-color: rgb(59, 130, 246);
+$header-color: rgba(255, 255, 255, 0.1);
+$header-text-color: #ffffff; 
+
+
+
+//mixins
+@mixin hover-effect {
+    &:hover {
+      color: $primary-color;
+      transform: scale(1.2);
+    }
+  };
+
+  @mixin text-shadow($color) {
+    text-shadow: 0 0 10px $color, 0 0 20px $color, 0 0 40px $color;
+  };
+
+  @mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @mixin abs-pos {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  //function
+
+  
+  
+  
