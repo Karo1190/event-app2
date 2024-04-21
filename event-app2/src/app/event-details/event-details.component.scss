@@ -37,13 +37,11 @@
     @include text-shadow($primary-color);
   }
 
-  ::ng-deep .p-button-label {
-    font-size: 22px;
-    padding: 2px 7px;
-  }
+//   ::ng-deep  .content-button .p-button-label {
+//     font-size: 20px;
+//     padding: 2px 5px;
+//   }
 
-  ::ng-deep button.p-ripple.p-element.p-button.p-component  {
-    margin-top: 15px;
-    margin-left: 5px;
-
-  }
+//   ::ng-deep button.p-ripple.p-element.p-button.p-component  {
+//     margin-left: 5px;
+//   }
