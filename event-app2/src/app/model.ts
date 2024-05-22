@@ -1,7 +1,15 @@
+import { FormControl, FormGroup } from "@angular/forms";
+
 export interface Option {
     label: string;
     value: string;
   }
+
+export interface Column {
+    field: string;
+    header: string;
+}
+
 
   export enum EventCategory {
     MUSIC = 'Music',
@@ -15,6 +23,7 @@ export interface Option {
   }
 
   export interface EventDto {
+    // [x: string]: string | number | Date;
     id: number,
     name: string,
     shortDescription?: string,
@@ -22,5 +31,25 @@ export interface Option {
     image: string,
     price: number,
     category: EventCategory,
-    rating: number
+    rating: number,
+    locations: EventLocation[]
+  }
+
+  export interface EventLocation {
+    location: string;
+    date: string
+  }
+
+  export interface MonthGroup {
+    month: string;
+    locations: EventLocation[];
+  }
+
+  export interface FilterConfig {
+    key: string; 
+    type: string; 
+  }
+  
+  export interface FilterCriteria {
+    [key: string]: any;
   }

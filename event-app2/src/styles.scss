@@ -80,3 +80,44 @@ svg.carousel-prev-icon {
 button.p-ripple.p-element.p-button.p-component {
   margin-left: 8px;
 }
+
+p-table.p-element {
+  width: 80%;
+}
+
+.p-dataview .p-dataview-content {
+background-color: #272424;
+}
+
+.p-dataview-content {
+  @include flex-center;
+  flex-direction: column
+}
+
+// p-divider.p-element {
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 50%; /* Ustaw kreskę na środku */
+//   transform: translateX(-50%); /* Przesuń kreskę o połowę szerokości w lewo */
+//   width: 1px;
+//   background-color: $primary-color;
+// }
+
+.p-panel-content{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.p-timeline-event-content {
+  display: flex;
+}
+
+p-timeline.p-element {
+  min-width: 500px
+}
+
+.p-inputtext {
+  width: 150px;
+}

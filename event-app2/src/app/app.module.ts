@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LOCALE_ID } from '@angular/core';
+import { DatePipe, registerLocaleData } from '@angular/common';
+import localePl from '@angular/common/locales/pl';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +21,15 @@ import { CarouselModule } from 'primeng/carousel';
 import { EventDetailsComponent } from './event-details/event-details.component';
 import { SectionComponent } from './section/section.component';
 import { RatingModule } from 'primeng/rating';
+import { EventDetailsTableComponent } from './event-details/event-details-table/event-details-table.component';
+import { TableModule } from 'primeng/table';
+import { DataViewModule } from 'primeng/dataview';
+import { SplitterModule } from 'primeng/splitter';
+import { DividerModule } from 'primeng/divider';
+import { CardModule } from 'primeng/card';
+import { FieldsetModule } from 'primeng/fieldset';
+import { TimelineModule } from 'primeng/timeline';
+import { CalendarModule } from 'primeng/calendar';
 
 
 
@@ -25,9 +37,11 @@ export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
 
+registerLocaleData(localePl);
+
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, EventDetailsComponent, SectionComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, EventDetailsComponent, SectionComponent, EventDetailsTableComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -40,7 +54,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     SelectButtonModule,
     CarouselModule,
     RatingModule, 
+    TableModule,
+    DataViewModule,
     HttpClientModule,
+    SplitterModule,
+    DividerModule,
+    CardModule,
+    FieldsetModule,
+    TimelineModule,
+    CalendarModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -49,7 +71,8 @@ export function HttpLoaderFactory(http: HttpClient) {
       },
     }),
   ],
-  providers: [],
+  providers: [DatePipe ],
+  // [{ provide: LOCALE_ID, useValue: 'pl' }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

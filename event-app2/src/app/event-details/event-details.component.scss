@@ -2,6 +2,8 @@
 
 .container {
   @include flex-center;
+ flex-direction: column;
+ width: 100%;
 }
 
 .header-card {
@@ -23,7 +25,7 @@
   position: relative;
   top: 30%;
   left: 20%;
-  z-index: 2;
+  z-index: 1;
   width: 45%;
 
   & .p-buttonp-button.p-element.content-button {
@@ -44,4 +46,7 @@
 
 //   ::ng-deep button.p-ripple.p-element.p-button.p-component  {
 //     margin-left: 5px;
+//   }
+// ::ng-deep app-event-details-table {
+//     width: 100%;
 //   }
