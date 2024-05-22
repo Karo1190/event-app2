@@ -1,0 +1,42 @@
+
+<p-panel *ngIf="event$ | async as event" header="{{ event.name }}" [toggleable]="true">
+  <form [formGroup]="form" class="form">
+    <div>
+      <label for="locations">Locations</label>
+      <input type="text" pInputText formControlName="locations" />
+
+ 
+      <label for="dateFrom">Date From</label>
+      <p-calendar formControlName="dateFrom" [showButtonBar]="true" dateFormat="dd.mm.yy"/>
+
+
+      <label for="dateTo">Date To</label>
+      <p-calendar formControlName="dateTo"  [showButtonBar]="true" dateFormat="dd.mm.yy"/>
+    </div>
+  </form>
+
+  <ng-container *ngIf="eventsGroupedByMonth$ | async as groupedEvents">
+    <div *ngFor="let group of groupedEvents">
+      <h2 class="month_event">{{ group.month | date: 'MMMM yyyy' }}</h2>
+      <p-dataView class="data-view" [value]="group.locations">
+        <ng-template let-location pTemplate="list">
+          <p-timeline [value]="group.locations">
+            <ng-template pTemplate="content" let-location>
+              <div class="event_item">
+                <small class="p-text-secondary">{{ event.name}}</small>
+                <div>{{ location.location }}</div>
+              </div>
+              <div class="event-purchase">
+                <div class="event-price">{{ '$' + event.price  }}</div>
+                <p-button class="buy-button" label="{{ 'eventDetails.header.buyTicket' | translate }}"></p-button>
+              </div>
+            </ng-template>
+            <ng-template pTemplate="opposite" let-location>
+              {{ location.date | date }} {{ formatDate(location.date) | translate }}
+            </ng-template>
+          </p-timeline>
+        </ng-template>
+      </p-dataView>
+    </div>
+  </ng-container>
+</p-panel>

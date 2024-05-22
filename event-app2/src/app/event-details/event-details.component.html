@@ -1,5 +1,5 @@
-<div class="container">
-    <header class="header-card" *ngIf="event$ | async as event">
+<div  *ngIf="event$ | async as event" class="container">
+    <header class="header-card">
       <div class="background-image" [ngStyle]="{'background-image': 'url(' + '/assets/img/' + event.image + ')'}"></div>
       <div class="content" >
         <h2 class="text">{{event.name}}</h2>
@@ -8,4 +8,7 @@
         <p-button class="content-button" label="{{'eventDetails.header.buyTicket' | translate}}"></p-button>
       </div>
     </header>
+
+        <app-event-details-table  [event$] ="event$"></app-event-details-table>
+
   </div>

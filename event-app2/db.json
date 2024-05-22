@@ -8,7 +8,17 @@
       "image": "football.jpg",
       "price": 65,
       "category": "MUSIC",
-      "rating": 5
+      "rating": 5,
+      "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
   },
   {
       "id": 2,
@@ -18,7 +28,17 @@
       "image": "business.jpg",
       "price": 72,
       "category": "SPORTS",
-      "rating": 4
+      "rating": 4,
+      "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
   },
   {
       "id": 3,
@@ -28,7 +48,57 @@
       "image": "business2.jpg",
       "price": 79,
       "category": "ARTS",
-      "rating": 3
+      "rating": 3,
+      "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        },
+        {
+          "location": "Location 3",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 4",
+          "date": "2024-05-15"
+        },
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 5",
+          "date": "2024-05-15"
+        },
+        {
+          "location": "Location 6",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 7",
+          "date": "2024-05-15"
+        },
+        {
+          "location": "Location 1",
+          "date": "2024-06-10"
+        },
+        {
+          "location": "Location 5",
+          "date": "2024-06-15"
+        },
+        {
+          "location": "Location 6",
+          "date": "2024-06-11"
+        },
+        {
+          "location": "Location 7",
+          "date": "2024-06-12"
+        }
+      ]
   },
   {
       "id": 4,
@@ -38,7 +108,17 @@
       "image": "car.jpg",
       "price": 29,
       "category": "FOOD",
-      "rating": 5
+      "rating": 5,
+      "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
   },
   {
       "id": 5,
@@ -48,7 +128,17 @@
       "image": "football.jpg",
       "price": 15,
       "category": "BUSINESS",
-      "rating": 4
+      "rating": 4,
+      "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
   },
   {
       "id": 6,
@@ -58,7 +148,17 @@
       "image": "business.jpg",
       "price": 120,
       "category": "EDUCATION",
-      "rating": 4
+      "rating": 4,
+      "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
   },
   {
       "id": 7,
@@ -68,7 +168,17 @@
       "image": "business2.jpg",
       "price": 32,
       "category": "FAMILY",
-      "rating": 3
+      "rating": 3,
+      "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
   },
   {
       "id": 8,
@@ -78,7 +188,17 @@
       "image": "car.jpg",
       "price": 34,
       "category": "OTHER",
-      "rating": 5
+      "rating": 5,
+      "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
   },
   {
       "id": 9,
@@ -88,7 +208,17 @@
       "image": "football.jpg",
       "price": 99,
       "category": "MUSIC",
-      "rating": 4
+      "rating": 4,
+      "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
   },
   {
       "id": 10,
@@ -98,7 +228,17 @@
       "image": "business.jpg",
       "price": 299,
       "category": "SPORTS",
-      "rating": 3
+      "rating": 3,
+      "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
   },
   {
       "id": 11,
@@ -108,7 +248,17 @@
       "image": "business2.jpg",
       "price": 24,
       "category": "ARTS",
-      "rating": 4
+      "rating": 4,
+      "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
   },
   {
     "id": 12,
@@ -118,7 +268,17 @@
     "image": "football.jpg",
     "price": 65,
     "category": "FOOD",
-    "rating": 5
+    "rating": 5,
+    "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
 },
 {
     "id": 13,
@@ -128,7 +288,17 @@
     "image": "business.jpg",
     "price": 72,
     "category": "BUSINESS",
-    "rating": 4
+    "rating": 4,
+    "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
 },
 {
     "id": 14,
@@ -138,7 +308,17 @@
     "image": "business2.jpg",
     "price": 79,
     "category": "EDUCATION",
-    "rating": 3
+    "rating": 3,
+    "locations": [
+        {
+          "location": "Location 1",
+          "date": "2024-05-10"
+        },
+        {
+          "location": "Location 2",
+          "date": "2024-05-15"
+        }
+      ]
 },
 {
     "id": 15,
