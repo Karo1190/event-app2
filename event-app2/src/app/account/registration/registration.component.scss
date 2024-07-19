@@ -1,0 +1,25 @@
+.card {
+    padding: 2rem;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .personal_data {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  // ::ng-deep .p-float-label label {
+  //   position: absolute;
+  //   top: 40%;
+  //   line-height: 1;
+  // }
+  
+  .input-error {
+    border-color: red;
+  }

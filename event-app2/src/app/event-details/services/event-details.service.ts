@@ -31,7 +31,6 @@ export class EventDetailsService {
   private filterLocations(locations: EventLocation[], searchCriteria: FilterCriteria): EventLocation[] {
     return locations.filter(location => {
       return Object.entries(searchCriteria).every(([key, value]) => {
-        console.log(Object.entries(searchCriteria));
         if (value === null || value === '') return true;
         switch (key) {
           case 'locations':

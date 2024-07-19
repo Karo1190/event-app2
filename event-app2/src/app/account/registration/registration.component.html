@@ -1,0 +1,26 @@
+<p-stepper [(activeStep)]="currentStepIndex" [linear]="true">
+    <p-stepperPanel *ngFor="let step of accountService.steps; let stepIndex = index" [header]="step.header | translate">
+      <ng-template pTemplate="content">
+        <form [formGroup]="getCurrentStepFormGroup()">
+          <ng-container *ngFor="let control of step.controls">
+            <ng-container *ngIf="isControlVisible(control)">
+              <p-checkbox *ngIf="control.type === 'checkbox'"
+                formControlName="{{ control.name }}" [binary]="true" label="{{ control.label }}"></p-checkbox>
+      
+              <p-floatLabel *ngIf="control.type !== 'checkbox'">
+                <input type="{{ control.type }}" pInputText formControlName="{{ control.name }}" />
+                <app-error-mesage [control]="form.get('step' + stepIndex)!.get(control.name)"></app-error-mesage>
+                <label for="{{ control.name }}">{{ control.label }}</label>
+              </p-floatLabel>
+            </ng-container>
+          </ng-container>
+        </form>
+  
+        <div class="flex pt-4 justify-content-between">
+          <p-button *ngIf="stepIndex > 0" label="Back" icon="pi pi-arrow-left" (onClick)="previousStep()"></p-button>
+          <p-button *ngIf="stepIndex < accountService.steps.length - 1" label="Next" icon="pi pi-arrow-right" iconPos="right" (onClick)="nextStep()"></p-button>
+        </div>
+      </ng-template>
+    </p-stepperPanel>
+  </p-stepper>
+  

@@ -3,7 +3,7 @@
       <a class="logo" [routerLink]="['/']">Logo</a>
       <a class="navbar-item" href="#">{{'navbar.eventCategory' | translate}}</a>
       <a class="navbar-item" href="#">{{'navbar.location' | translate}}</a>
-      <a class="navbar-item" href="#">{{'navbar.account' | translate}}</a>
+      <a class="navbar-item" (click)="openLoginDialog()">{{ 'navbar.account' | translate }}</a>
       <form [formGroup]="navbarFormGroup">
         <p-selectButton [options]="languageOptions"  formControlName="language" optionLabel="label" optionValue="value" [allowEmpty]= false (onChange)="switchLanguage($event)" ></p-selectButton>
     </form>

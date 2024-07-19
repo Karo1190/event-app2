@@ -94,16 +94,6 @@ background-color: #272424;
   flex-direction: column
 }
 
-// p-divider.p-element {
-//   position: absolute;
-//   top: 0;
-//   bottom: 0;
-//   left: 50%; /* Ustaw kreskę na środku */
-//   transform: translateX(-50%); /* Przesuń kreskę o połowę szerokości w lewo */
-//   width: 1px;
-//   background-color: $primary-color;
-// }
-
 .p-panel-content{
   display: flex;
   justify-content: space-around;
@@ -119,5 +109,34 @@ p-timeline.p-element {
 }
 
 .p-inputtext {
-  width: 150px;
+  width: 270px;
+  height: 50px;
+  margin: 15px;
 }
+
+.p-dialog-header {
+  padding: 0;
+}
+
+ul.p-tabview-nav {
+  display: flex;
+  justify-content: center;
+  border-width: 0 0 0 0
+}
+
+.p-float-label > label {
+  left: 1.75rem
+}
+
+.p-dialog {
+  background: linear-gradient(to top, #87CEFA, #E0FFFF);
+}
+
+.p-dialog-header,.p-tabview-panels, .p-dialog-content, ul.p-tabview-nav, a, .p-stepper-panels {
+    background: transparent
+}
+
+.p-float-label label {
+  line-height: 2;
+}
+

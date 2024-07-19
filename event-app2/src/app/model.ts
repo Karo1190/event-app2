@@ -53,3 +53,17 @@ export interface Column {
   export interface FilterCriteria {
     [key: string]: any;
   }
+
+  export interface Control {
+    name: string;
+    type: string;
+    label: string;
+    required: boolean;
+    visible: boolean | (() => boolean);
+    defaultValue: any;
+  }
+  
+  export interface Step {
+    header: string;
+    controls: Control[];
+  }
