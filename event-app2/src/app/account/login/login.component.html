@@ -1,0 +1,17 @@
+<form [formGroup]="form" class="form">
+    <p-floatLabel>
+      <input type="text" pInputText formControlName="username" />
+      <label for="username">E-mail</label>
+    </p-floatLabel>
+    <p-floatLabel>
+      <input type="password" pInputText formControlName="password" />
+      <label for="password">Hasło</label>
+    </p-floatLabel>
+    <div class="Remember_me">
+      <p-checkbox 
+      formControlName="rememberMe"
+      [binary]="true"/>
+  <label for="rememberMe">{{'login.rememberMe' | translate}}</label>
+    </div>
+    <p-button class="submit-button" label="{{ 'login.title' | translate }}" />
+  </form>

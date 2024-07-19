@@ -25,6 +25,18 @@
             "buyTicket": "Kup bilet"
         }
     },
+    "login": {
+        "title": "Zaloguj się",
+        "username": "E-mail",
+        "password": "Hasło",
+        "rememberMe": "Zapamiętaj mnie"
+    },
+    "registration": {
+        "title": "Zarejestruj się",
+        "personalData": "Dane osobowe",
+        "addressData": "Dane adresowe",
+        "password": "Hasło"
+    },
     "dictionaries": {
         "EventCategory": {
             "MUSIC": "Muzyka",

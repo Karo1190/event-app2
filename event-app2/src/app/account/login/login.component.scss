@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Remember_me {
+    margin-top: 8px;
+    display: flex;
+  }
+  
+  label[for="rememberMe"] {
+    margin-left: 5px;
+  }
+  
+  .submit {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  
+  ::ng-deep .form .submit-button .p-button {
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  ::ng-deep .p-float-label label {
+    top: 20%;
+  
+  }
+

@@ -30,6 +30,17 @@ import { CardModule } from 'primeng/card';
 import { FieldsetModule } from 'primeng/fieldset';
 import { TimelineModule } from 'primeng/timeline';
 import { CalendarModule } from 'primeng/calendar';
+import { DialogModule } from 'primeng/dialog';
+import { TabViewModule } from 'primeng/tabview';
+import { CheckboxModule } from 'primeng/checkbox';
+import { ModalAccountComponent } from './account/modal-account/modal-account.component';
+import { LoginComponent } from './account/login/login.component';
+import { FloatLabelModule } from 'primeng/floatlabel';
+import { DialogService } from 'primeng/dynamicdialog';
+import { DynamicDialogModule } from 'primeng/dynamicdialog';
+import { StepperModule } from 'primeng/stepper';
+import { RegistrationComponent } from './account/registration/registration.component';
+import { ErrorMesageComponent } from './shared/error-mesage/error-mesage.component';
 
 
 
@@ -41,7 +52,7 @@ registerLocaleData(localePl);
 
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, EventDetailsComponent, SectionComponent, EventDetailsTableComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, EventDetailsComponent, SectionComponent, EventDetailsTableComponent, ModalAccountComponent, LoginComponent, RegistrationComponent, ErrorMesageComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -63,6 +74,12 @@ registerLocaleData(localePl);
     FieldsetModule,
     TimelineModule,
     CalendarModule,
+    DialogModule,
+    TabViewModule,
+    FloatLabelModule,
+    CheckboxModule,
+    DynamicDialogModule,
+    StepperModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -71,7 +88,7 @@ registerLocaleData(localePl);
       },
     }),
   ],
-  providers: [DatePipe ],
+  providers: [DatePipe, DialogService ],
   // [{ provide: LOCALE_ID, useValue: 'pl' }],
   bootstrap: [AppComponent],
 })
